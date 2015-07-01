@@ -26,10 +26,10 @@ function parse(nzip, data, callback) {
   var opera = (parseInt(nzip) + 0xff000000).toString();
   var array = data[nzip] || data[opera];
   console.log(array);
-  if (!array || !array[0]) return;
+  if (!array || !array[0]) return callback(false);
 
   var jpref = prefmap[array[0] - 1];
-  if (!jpref) return;
+  if (!jpref) throw 'Index out of bounds';
 
   callback({
     prefecture: jpref,

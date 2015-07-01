@@ -23,3 +23,12 @@ postal_code.get('1000001', function(address) {
 
 ## LICENSE
 MIT License
+
+Copyright (c) 2015 MIZUNO Hiroki
+http://github.com/mzp/japan-postal-code
+
+Copyright (c) 2008-2015 Ninkigumi Co.,Ltd.
+http://ajaxzip3.github.io/
+
+Copyright (c) 2006-2007 Kawasaki Yusuke <u-suke [at] kawa.net>
+http://www.kawa.net/works/ajax/AjaxZip2/AjaxZip2.html

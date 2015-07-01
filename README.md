@@ -11,7 +11,7 @@ npm install japan-postal-code
 ## How to use
 
 ```js
-var postal_code = require('postal_code');
+var postal_code = require('japan-postal-code');
 
 postal_code.get('1000001', function(address) {
   console.log(address.prefecture); // => "東京都"
